@@ -1,0 +1,24 @@
+{
+  "name": "opencode-geniffy",
+  "version": "0.1.0",
+  "description": "Geniffy for OpenCode: memory that remembers you and your projects, every fact with the line it came from.",
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.mjs",
+  "exports": "./index.mjs",
+  "files": ["index.mjs", "scripts/", "README.md", "LICENSE", "CHANGELOG.md"],
+  "keywords": ["opencode", "opencode-plugin", "memory", "mcp", "geniffy"],
+  "homepage": "https://docs.geniffy.com/mcp/opencode",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geniffy/geniffy-opencode.git"
+  },
+  "bugs": "https://github.com/Geniffy/geniffy-opencode/issues",
+  "author": "Geniffy <ops@geniffy.com>",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/scrub.test.mjs test/opencode.test.mjs"
+  }
+}
